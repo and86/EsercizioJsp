@@ -8,8 +8,12 @@
     String password=request.getParameter("pass");
     
     if(password.equals("123")){
-    	RequestDispatcher rd=request.getRequestDispatcher("Welcome.jsp");
-    	rd.forward(request, response);
+//     	RequestDispatcher rd=request.getRequestDispatcher("Welcome.jsp");
+//     	rd.forward(request, response);
+    %>
+    
+    <<<jsp:forward page="Welcome.jsp"></jsp:forward>
+    <%
     } else{
 //     	response.sendRedirect("Login.jdp");
     	RequestDispatcher rd=request.getRequestDispatcher("Login.jsp");
