@@ -11,6 +11,7 @@
     	RequestDispatcher rd=request.getRequestDispatcher("Welcome.jsp");
     	rd.forward(request, response);
     } else{
+//     	response.sendRedirect("Login.jdp");
     	RequestDispatcher rd=request.getRequestDispatcher("Login.jsp");
     	rd.forward(request, response);
     	    	
