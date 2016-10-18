@@ -12,7 +12,7 @@
 //     	rd.forward(request, response);
     %>
     
-    <<<jsp:forward page="Welcome.jsp"></jsp:forward>
+    <jsp:forward page="Welcome.jsp"></jsp:forward>
     <%
     } else{
 //     	response.sendRedirect("Login.jdp");
